@@ -50,15 +50,9 @@ end }} {{ define "meta_tags" }}
         </div>
         <a
           class="button button-primary mb-2"
-          href="{{ .Site.Params.homepage_button_text | relURL }}"
+          href="{{ .Site.Params.homepage_button_link | relURL }}"
         >
           {{ .Site.Params.homepage_button_text }}
-        </a>
-        <a
-          class="button button-primary mb-2"
-          href="{{ .Params.button | relURL }}"
-        >
-          {{ .Params.button }}
         </a>
       </div>
     </div>
